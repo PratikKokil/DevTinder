@@ -22,12 +22,6 @@ app.use('/',profileRouter);
 app.use('/',requestRouter);
 
 
-
-
-
-
-
-
 connectDB().then(() => {
   console.log("connection established successfully...!!");
   app.listen(7000,() => {
